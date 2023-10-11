@@ -1,0 +1,430 @@
+*{
+    padding:0px;
+    margin: 0px;
+} 
+body{
+    background-color: blue;
+
+}
+.main{
+    width: 100vw;
+}
+.main>.topsection{
+    background-image:url("/images/herocover.png");
+    color: white;
+     height:80vh  ;
+     width: 100vw;
+    background-size: cover;
+     background-repeat: no-repeat;
+
+    
+} 
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: auto;
+}
+.property{
+      display: flex;
+      justify-content: space-around;
+      gap: 15px;
+}
+.button1 {
+    background-color: #00BFFF;
+    color: white;
+    padding: 15px 20px; 
+    font-size: 15px; 
+    border: none;
+    gap: 30px;
+}
+.motto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.topcards{
+    display: flex;
+    height:150px;
+    gap: 40px;
+    margin-top: 250px;
+    justify-content:center ;
+}
+.card{
+    background-color: white;
+    color: black;
+    padding: 20px;
+   
+}
+ .card>svg{
+    width: 70px;
+    color:#70cfee;
+        
+}
+.cardb{
+    background-color: hwb(193 17% 16%);
+    padding: 20px;
+}
+ .cardb>svg{
+    width: 70px;
+ }
+
+ .round{
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center; 
+}
+.blue {
+    color: white;
+    background-color: #00BFFF;
+}
+
+.white {
+    background-color: transparent; 
+    border: 2px solid white; 
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: white;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100vh;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.industry{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 40px;
+}
+.person{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.person>img{
+    width: 80px;
+}
+.middle2{
+    justify-content: center;
+}
+.person>svg{
+    flex-direction: column;
+    display: flex;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:100px;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img{
+    max-width: 90px;
+    height: auto;
+}
+.logo div{
+    text-align: center;
+    margin: 30px;
+}
+
+/*.subscribe {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;*/
+}
+.subscribe-container{
+    background-color: #ffffff; 
+    border: 2px solid #333; 
+     
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     justify-content: center;
+     /* align-items: center; */
+}
+.subscribe-container .container{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;/
+}
+
+ .subscribe-container .form-control {
+    width: 60%;
+    /* margin-bottom: 10px; */
+}
+.subscribe .header{
+    /* padding-right: 100px; */
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.primary {
+    background-color:#007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing h3{
+    font-size: 30px;
+     text-align: center;
+}
+.pricing p{
+    text-align: center;
+}
+
+.pricing-cards{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   padding: 20px;
+   padding-top: 70px;
+}
+
+.pricing-card{
+    height: 90vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(53.33%  -10px);
+    border-color: 2px #007bff;
+    border: 1px #007bff;
+}
+.featured{
+    background-color: #007bff;
+}
+
+
+.button{
+    background-color: #3498db;
+    color: white;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  .right-tick ion-icon {
+    font-size: 34px;
+    color: #01a807;
+  }
+  
+  .grey-tick ion-icon {
+    font-size: 34px;
+    color: #BDBDBD;
+  }
+  .pricing-options {
+    display: flex;
+    grid-template-columns: 13% 98%;
+    margin: 4%;
+    text-align: left;
+    align-items: center;
+  }
+  .pricing-options ion-icon {
+    font-size: 34px;
+  }
+
+
+  
+.lastcard {
+    background-color: hsl(226, 43%, 10%);
+    height: 80vh;
+    color: white;
+    height: 60vh;
+}
+.lastcard .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+
+}
+.lastcard .text{
+    justify-content: center;
+   align-items: center;
+}
+
+.lastcard h1{
+    font-size: 35px;
+}
+.lastcard img{
+
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+
+.appointment{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height:;
+}
+
+.book-appointment-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -200px;
+}
+
+.book-appointment-image {
+    flex: 1;
+
+}
+
+.book-appointment-image img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.book-appointment-form {
+    flex: 2; 
+    padding: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.book-appointment-form h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+}
+
+.appointment .consulting{
+        text-align: center;
+        margin-bottom: 20px; 
+}
+
+
+.footer{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+
+}
+ .footer .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;    
+}
+
+.container .footers {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 10px;  
+    font-size: 14px;
+  }
+  
+  .container .footers ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container .footers li {
+    margin-bottom: 15px;
+    color: #9C9C9C;
+  }
+  .footers h2{
+   font-size: 16px;
+   padding-bottom: 25px;
+   color: #1A2039;
+}
+  
+ 
+ 
